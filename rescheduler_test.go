@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"k8s-spot-rescheduler/nodes"
 	"github.com/stretchr/testify/assert"
+	"k8s-spot-rescheduler/nodes"
 	apiv1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
